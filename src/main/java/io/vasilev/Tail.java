@@ -2,7 +2,7 @@ package io.vasilev;
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
-class Tail {
+public class Tail {
     private volatile int tail;
     private int plainTail;
 
